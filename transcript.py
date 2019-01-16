@@ -24,9 +24,9 @@ while operation != False:
             terminalCipher.append('[' + letter + ': ' + str(cutDictionaryASCII[letter]) + '] ')
         else:
             terminalCipher.append('[(space): ' + str(cutDictionaryASCII[letter]) + '] ')
-
-    print(''.join(cipher))
+            
     print('\n'.join(terminalCipher))
+    print(''.join(cipher))
     print('Characters:', len(cipher))
 
     question = input('Continue? - ').lower()
